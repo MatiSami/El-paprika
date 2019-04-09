@@ -1,0 +1,240 @@
+:root{
+    --color: #fe2142;
+}
+
+/* style ogólne */
+body{
+    font-family: 'Lato', cursive;
+}
+
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+
+
+/* stylowanie górnej nawigacji */
+.page-nav {
+    width: 100%;
+    background-color: var(--color);
+    height: 100px;
+    
+}
+
+.page-nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-top_list{
+    display: flex;
+    align-items: center;
+}
+
+.nav-top_list_el a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding-left: 40px
+}
+
+/* sekcja z głównym obrazkiem i tytułem strony */
+
+.big-pic-section {
+    height: calc(100vh - 100px);
+    background: url(../images/main-banner.jpg) no-repeat top;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center
+}
+
+.big-pic-section-title {
+    font-size: 100px;
+    margin-top: 180px;
+    font-family: 'Caesar Dressing';  
+}
+
+.big-pic-section-text {
+    font-size: 18px;
+    margin: 40px auto 0;
+
+    line-height: 40px;
+    text-transform: none;
+    width: 75%;
+}
+
+.big-pic-section-btn {
+    background: #fff;
+    display: inline-block;
+    color: var(--color);
+    text-decoration: none;
+    margin-top: 40px;
+    padding: 20px 60px;
+    border: 1px solid #fff;
+    font-weight: bold;
+    border-radius: 10px
+}
+
+
+/* druga sekcja z artykułami */
+
+.article-section {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.article-section-element {
+    padding: 10px 10px;
+}
+
+.article-text-title {
+    color: var(--color);
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 20px 0;
+    font-family: 'Caesar Dressing'; 
+}
+
+.article-section-text {
+    text-align: justify;
+}
+
+.article-section-btn {
+    background: var(--color);
+    display: inline-block;
+    color:#fff;
+    text-decoration: none;
+    margin-top: 40px;
+    padding: 20px 60px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 10px
+}
+
+/* trzecia sekcja z hasłami */
+
+.section-banner-text{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+    color: #fff;
+    background: var(--color);
+}
+.banner-text{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.section-banner-text p:first-of-type {
+    margin-bottom: 20px;
+}
+
+
+.section-banner-text-element {
+    width: 50%;
+    font-size: 15px;
+    line-height: 15px;
+    color: #fcfcfc;
+    opacity: 0.5;
+    padding-right: 30px
+}
+
+.section-banner-text-title {
+    width: 50%;
+    font-family: 'Caesar Dressing';
+    font-size: 30px;
+    line-height: 40px;
+}
+
+/* sekcja z przykładami */
+
+.section-example {
+    display: flex;
+    margin: 150px 0;
+}
+
+.section-example-img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+}
+
+.section-example-text {
+    text-align: center;
+}
+
+.section-example-btn {
+    background: var(--color);
+    display: inline-block;
+    color:#fff;
+    text-decoration: none;
+    margin: 40px;
+    padding: 20px 60px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 10px
+}
+
+/* sekcja z tekstem */
+
+.lorem-text {
+    width: 100%;
+    background: #c5c4c4;
+    padding: 150px 0px;
+}
+
+.lorem-text-element {
+    width: 300px;
+    text-align: justify
+}
+
+
+.lorem-text-block{
+    display: grid;
+  height: 100px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 100px;
+  column-gap: 20px;
+}
+
+/* footer */
+.page-footer{
+    width: 100%;
+    background: #000;
+}
+.footer-logo{
+    padding: 40px 0px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px 0px;
+    min-height: 100px;
+}
+
+.footer-menu-list {
+    display: flex;
+    align-items: center;
+}
+
+.footer-menu-list-element a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding-right: 40px
+}
+
+.footer-copyright {
+    color: rgb(131, 125, 125)88, 79, 79);
+}
